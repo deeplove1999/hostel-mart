@@ -13,30 +13,35 @@ class Directory extends React.Component {
           imageUrl:
             "https://images.unsplash.com/photo-1572467485343-d94afd55ac8c",
           id: 1,
+          linkUrl: "dairy",
         },
         {
           title: "Fruits / Veges",
           imageUrl:
             "https://images.unsplash.com/photo-1575808142341-e39853744dbd",
           id: 2,
+          linkUrl: "",
         },
         {
           title: "Snacks / Beverages",
           imageUrl:
             "https://images.unsplash.com/photo-1514178255089-603d3a35b24a",
           id: 3,
+          linkUrl: "",
         },
         {
           title: "Bakery",
           imageUrl:
             "https://images.unsplash.com/photo-1605974323227-73fd2fff4adf",
           id: 4,
+          linkUrl: "",
         },
         {
           title: "Packaged Food",
           imageUrl:
             "https://www.superhealthykids.com/wp-content/uploads/2018/01/healthy-packages-768x768.jpg",
           id: 5,
+          linkUrl: "",
         },
       ],
     };
@@ -44,8 +49,8 @@ class Directory extends React.Component {
   render() {
     return (
       <div className="directory-menu">
-        {this.state.sections.map(({ title, imageUrl, id }) => (
-          <MenuItem key={id} imageUrl={imageUrl} title={title} />
+        {this.state.sections.map(({ id, ...otherProps }) => (
+          <MenuItem key={id} {...otherProps} />
         ))}
       </div>
     );
