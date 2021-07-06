@@ -3,12 +3,15 @@ import "./header.styles.scss";
 import { Link } from "react-router-dom";
 import { auth } from "../../firebase/firebase.utils";
 import { connect } from "react-redux";
+import CartIcon from "../cart-icon/cart-icon.component";
+import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 
-const Header = ({ currentUser }) => (
+const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <Link className="brand" to="/">
       Hostel <span className="brand-span">Mart</span>
     </Link>
+
     <div className="options">
       <Link className="option" to="/shop">
         SHOP
@@ -25,13 +28,17 @@ const Header = ({ currentUser }) => (
           SIGN IN
         </Link>
       )}
+      <CartIcon />
     </div>
+    {hidden ? null : <CartDropdown />}
   </div>
 );
 
-const mapStateToProps = state => ({
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
   // we here get data from root reducer of particular reducer
-  currentUser: state.user.currentUser, // this we get as a prop to be passed to header component via connect h.o.function
+  // this we get as a prop to be passed to header component via connect h.o.function
+  currentUser,
+  hidden,
 });
 
 export default connect(mapStateToProps)(Header);
