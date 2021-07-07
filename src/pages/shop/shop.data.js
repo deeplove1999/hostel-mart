@@ -54,42 +54,42 @@ const Shop_Data = [
     routeName: "fruit-veges",
     items: [
       {
-        id: 1,
+        id: 7,
         name: "Strawberry",
         imageUrl:
           "https://images.unsplash.com/photo-1587474708610-0cf2d41b59e6",
         price: 28,
       },
       {
-        id: 2,
+        id: 8,
         name: "Banana",
         imageUrl:
           "https://images.unsplash.com/photo-1587334206596-c0f9f7dccbe6",
         price: 20,
       },
       {
-        id: 3,
+        id: 9,
         name: "Apple",
         imageUrl:
           "https://images.unsplash.com/photo-1507737290854-b1edc0d042a7",
         price: 60,
       },
       {
-        id: 4,
+        id: 10,
         name: "Onion",
         imageUrl:
           "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc",
         price: 150,
       },
       {
-        id: 5,
+        id: 11,
         name: "Chicken Breast",
         imageUrl:
           "https://images-na.ssl-images-amazon.com/images/I/51e2CEGUFWL.jpg",
         price: 120,
       },
       {
-        id: 6,
+        id: 12,
         name: "Soya Tofu",
         imageUrl:
           "https://images-na.ssl-images-amazon.com/images/I/71eanFdsXuL._SL1000_.jpg",
@@ -103,42 +103,42 @@ const Shop_Data = [
     routeName: "snacks-beverage",
     items: [
       {
-        id: 1,
+        id: 13,
         name: "Lays",
         imageUrl:
           "https://rukminim1.flixcart.com/image/280/280/kmqn3bk0/chips/c/f/n/american-style-cream-onion-flavour-lay-s-original-imagfkfkcztakseh.jpeg",
         price: 28,
       },
       {
-        id: 2,
+        id: 14,
         name: "Kurkure",
         imageUrl:
-          "https://rukminim1.flixcart.com/image/280/280/knyxqq80/snack-savourie/v/n/x/masala-munch-pouch-kurkure-original-imag2gx29ygxgzyb.jpeg",
+          "https://images-na.ssl-images-amazon.com/images/I/81rJyT%2BGzBL._SL1500_.jpg",
         price: 20,
       },
       {
-        id: 3,
+        id: 15,
         name: "Coca-Cola Can",
         imageUrl:
-          "https://rukminim1.flixcart.com/image/280/280/jqzitu80/aerated-drink/t/f/k/300-na-can-coca-cola-original-imafcvvqazafyhmy.jpeg",
+          "https://static.turbosquid.com/Preview/001153/615/0T/3D-model-coca-cola_0.jpg",
         price: 60,
       },
       {
-        id: 4,
+        id: 16,
         name: "Pepsi Can",
         imageUrl:
-          "https://rukminim1.flixcart.com/image/280/280/jxdkpzk0/aerated-drink/b/f/a/250-na-can-pepsi-original-imafhumjnrtzfgfp.jpeg",
+          "https://cdn.pixabay.com/photo/2020/05/10/05/14/pepsi-5152332_1280.jpg",
         price: 150,
       },
       {
-        id: 5,
+        id: 17,
         name: "Chicken Breast",
         imageUrl:
           "https://images-na.ssl-images-amazon.com/images/I/51e2CEGUFWL.jpg",
         price: 120,
       },
       {
-        id: 6,
+        id: 18,
         name: "Soya Tofu",
         imageUrl:
           "https://images-na.ssl-images-amazon.com/images/I/71eanFdsXuL._SL1000_.jpg",
@@ -152,42 +152,42 @@ const Shop_Data = [
     routeName: "bakery",
     items: [
       {
-        id: 1,
-        name: "Amul Full Cream Milk",
+        id: 19,
+        name: "Cookies",
         imageUrl:
-          "https://dreamzdeal.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/04/15231811/60787c5b373da1618508891.jpeg",
+          "https://images.unsplash.com/photo-1590080875897-b7b65b2f73d7",
         price: 28,
       },
       {
-        id: 2,
-        name: "Mother Dairy Live Lite Milk",
+        id: 20,
+        name: "Chocolate-Cake",
         imageUrl:
-          "https://frugivore.s3.amazonaws.com/media/package/img_one/2021-04-23/live_lite_milk_Kraked.jpg",
+          "https://images.unsplash.com/photo-1569929232526-d9c6578e1531",
         price: 20,
       },
       {
-        id: 3,
-        name: "Amul Panner",
+        id: 21,
+        name: "Pastery",
         imageUrl:
-          "https://www.jiomart.com/images/product/original/490174895/amul-fresh-paneer-200-g-pack-0-20210324.jpg",
+          "https://images.unsplash.com/photo-1590563139809-7f7ed0d27b5c",
         price: 60,
       },
       {
-        id: 4,
-        name: "Eggs",
+        id: 23,
+        name: "Brown Bread",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/1991/9785/products/HarleyFarms_BrownEggs_Aug2020_551x.jpg?v=1606344898",
+          "https://www.sharmispassions.com/wp-content/uploads/2018/03/HomemadeBrownBread1-475x500.jpg",
         price: 150,
       },
       {
-        id: 5,
+        id: 24,
         name: "Chicken Breast",
         imageUrl:
           "https://images-na.ssl-images-amazon.com/images/I/51e2CEGUFWL.jpg",
         price: 120,
       },
       {
-        id: 6,
+        id: 25,
         name: "Soya Tofu",
         imageUrl:
           "https://images-na.ssl-images-amazon.com/images/I/71eanFdsXuL._SL1000_.jpg",
@@ -201,42 +201,42 @@ const Shop_Data = [
     routeName: "packaged-food",
     items: [
       {
-        id: 1,
-        name: "Amul Full Cream Milk",
+        id: 26,
+        name: "Quaker Oats",
         imageUrl:
-          "https://dreamzdeal.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/04/15231811/60787c5b373da1618508891.jpeg",
+          "https://www.jiomart.com/images/product/420x420/490309138/quaker-oats-1-kg-0-20201118.jpg",
         price: 28,
       },
       {
-        id: 2,
-        name: "Mother Dairy Live Lite Milk",
+        id: 27,
+        name: "Maggi",
         imageUrl:
-          "https://frugivore.s3.amazonaws.com/media/package/img_one/2021-04-23/live_lite_milk_Kraked.jpg",
+          "https://www.jiomart.com/images/product/420x420/490000363/maggi-2-minute-masala-instant-noodles-70-g-0-20201020.jpg",
         price: 20,
       },
       {
-        id: 3,
-        name: "Amul Panner",
+        id: 28,
+        name: "Corn Flakes",
         imageUrl:
-          "https://www.jiomart.com/images/product/original/490174895/amul-fresh-paneer-200-g-pack-0-20210324.jpg",
+          "https://images-na.ssl-images-amazon.com/images/I/71wt6TPhF%2BL._SL1500_.jpg",
         price: 60,
       },
       {
-        id: 4,
-        name: "Eggs",
+        id: 29,
+        name: "Cup Noodle",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/1991/9785/products/HarleyFarms_BrownEggs_Aug2020_551x.jpg?v=1606344898",
+          "https://www.bigbasket.com/media/uploads/p/l/40052969_3-nissin-cup-noodles-mazedar-masala.jpg",
         price: 150,
       },
       {
-        id: 5,
+        id: 30,
         name: "Chicken Breast",
         imageUrl:
           "https://images-na.ssl-images-amazon.com/images/I/51e2CEGUFWL.jpg",
         price: 120,
       },
       {
-        id: 6,
+        id: 31,
         name: "Soya Tofu",
         imageUrl:
           "https://images-na.ssl-images-amazon.com/images/I/71eanFdsXuL._SL1000_.jpg",
