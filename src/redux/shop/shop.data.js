@@ -1,5 +1,5 @@
-const Shop_Data = [
-  {
+const Shop_Data = {
+  dairy: {
     id: 1,
     title: "Dairy / Eggs",
     routeName: "dairy",
@@ -48,10 +48,10 @@ const Shop_Data = [
       },
     ],
   },
-  {
+  fruits: {
     id: 2,
     title: "Fruits / Veges",
-    routeName: "fruit-veges",
+    routeName: "fruits",
     items: [
       {
         id: 7,
@@ -97,10 +97,10 @@ const Shop_Data = [
       },
     ],
   },
-  {
+  snacks: {
     id: 3,
     title: "Snacks / Beverages",
-    routeName: "snacks-beverage",
+    routeName: "snacks",
     items: [
       {
         id: 13,
@@ -146,7 +146,7 @@ const Shop_Data = [
       },
     ],
   },
-  {
+  bakery: {
     id: 4,
     title: "Bakery",
     routeName: "bakery",
@@ -195,10 +195,10 @@ const Shop_Data = [
       },
     ],
   },
-  {
+  packagedfood: {
     id: 5,
     title: "Packaged Food",
-    routeName: "packaged-food",
+    routeName: "packagedfood",
     items: [
       {
         id: 26,
@@ -244,6 +244,6 @@ const Shop_Data = [
       },
     ],
   },
-];
+};
 
 export default Shop_Data;
