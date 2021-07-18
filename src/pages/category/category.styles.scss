@@ -11,10 +11,6 @@
   .items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-
-    & .category-item {
-      margin-bottom: 40px;
-    }
+    grid-gap: 50px 10px;
   }
 }
